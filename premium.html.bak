@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Premium Plans — ImagineAI</title>
+  <meta name="description" content="Choose the ImagineAI plan that fits you — start free with 5 videos, or go Monthly, Yearly or Lifetime for unlimited AI image-to-video creation.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎬</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===== Preloader ===== -->
+  <div id="preloader">
+    <div class="loader-ring"></div>
+    <div class="loader-text grad-text">ImagineAI</div>
+  </div>
+
+  <!-- ===== Navbar ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-mark">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l1.9 5.8L19.7 9.7l-5.8 1.9L12 17.4l-1.9-5.8L4.3 9.7l5.8-1.9L12 2z"/><path d="M19 15l.9 2.6L22.5 18.5l-2.6.9L19 22l-.9-2.6-2.6-.9 2.6-.9L19 15z"/></svg>
+        </span>
+        Imagine<span class="grad-text">AI</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="premium.html">Premium</a></li>
+      </ul>
+      <div class="nav-cta">
+        <span class="plan-badge free">Free — 5 videos left</span>
+        <a href="premium.html" class="btn btn-primary btn-sm">Upgrade</a>
+        <button class="hamburger" id="hamburger" aria-label="Open menu"><span></span></button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===== Page Hero ===== -->
+  <header class="page-hero">
+    <div class="hero-bg">
+      <div class="grid-pattern"></div>
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+    </div>
+    <div class="container" style="position:relative;z-index:2">
+      <span class="eyebrow reveal">Premium Plans</span>
+      <h1 class="reveal d-1">Unlock <span class="grad-text">Unlimited Videos</span></h1>
+      <p class="page-sub reveal d-2">
+        Start free with 5 videos, or go Premium from just ₹399/month.
+        Grab the launch offer on the Yearly plan and get 1 year free.
+      </p>
+      <div class="breadcrumb reveal d-3">
+        <a href="index.html">Home</a><span class="sep">/</span><span>Premium</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== Pricing ===== -->
+  <section class="section section-alt">
+    <div class="container">
+      <!-- ===== Launch Offer ===== -->
+      <div class="offer-banner reveal" data-offer-banner>
+        <div class="offer-copy">
+          <h3>🎁 Launch Offer — <span class="hl">1 Year FREE on ₹499/Year Plan</span></h3>
+          <p>Buy the <b>₹499 Yearly plan</b> before <b>25 September 2026</b> and get 12 extra months free — 2 years of unlimited image-to-video creation. Offer ends in:</p>
+        </div>
+        <div class="offer-countdown" data-offer-countdown>
+          <div class="cd-box"><span class="cd-num days">--</span><span class="cd-lbl">Days</span></div>
+          <div class="cd-box"><span class="cd-num hrs">--</span><span class="cd-lbl">Hours</span></div>
+          <div class="cd-box"><span class="cd-num mins">--</span><span class="cd-lbl">Mins</span></div>
+          <div class="cd-box"><span class="cd-num secs">--</span><span class="cd-lbl">Secs</span></div>
+        </div>
+      </div>
+
+      <div class="pricing-grid">
+        <!-- Free -->
+        <div class="price-card reveal">
+          <div class="price-name">Free</div>
+          <div class="price-desc">Perfect for trying ImagineAI</div>
+          <div class="price-tag">
+            <span class="cur">₹</span><span class="amt">0</span><span class="per">forever</span>
+          </div>
+          <ul class="price-features">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>5 free videos</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>5 motion presets</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>SD 480p output</li>
+            <li class="off"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6L6 18M6 6l12 12"/></svg>No 1080p HD</li>
+            <li class="off"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6L6 18M6 6l12 12"/></svg>No commercial license</li>
+            <li class="off"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6L6 18M6 6l12 12"/></svg>No API access</li>
+          </ul>
+          <button class="btn btn-ghost btn-block" data-buy="free">Start Free</button>
+        </div>
+
+        <!-- Monthly -->
+        <div class="price-card reveal d-1">
+          <div class="price-name">Monthly</div>
+          <div class="price-desc">Flexible — cancel anytime</div>
+          <div class="price-tag">
+            <span class="cur">₹</span><span class="amt">399</span><span class="per">/month</span>
+          </div>
+          <ul class="price-features">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Unlimited videos</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>All 5 motions + priority queue</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>1080p HD output</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>60fps smooth rendering</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Commercial license included</li>
+            <li class="off"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6L6 18M6 6l12 12"/></svg>No API access</li>
+          </ul>
+          <button class="btn btn-ghost btn-block" data-buy="monthly">Get Monthly</button>
+          <p class="price-note">Billed monthly · Cancel anytime</p>
+        </div>
+
+        <!-- Yearly (launch offer) -->
+        <div class="price-card popular reveal d-2">
+          <span class="popular-flag">★ Best Value</span>
+          <span class="save-badge" data-offer-banner>SAVE 50%</span>
+          <div class="price-name">Yearly</div>
+          <div class="price-desc">Best value — launch offer active</div>
+          <div class="price-tag">
+            <span class="old" data-offer-banner>₹999</span>
+            <span class="cur">₹</span><span class="amt">499</span><span class="per">/year</span>
+          </div>
+          <ul class="price-features">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Unlimited videos</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Everything in Monthly</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>1080p HD output</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>60fps smooth rendering</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Commercial license included</li>
+            <li class="gold" data-offer-banner><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>🎁 12 months FREE with launch offer</li>
+          </ul>
+          <button class="btn btn-primary btn-block" data-buy="yearly">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8l4 4 5-7 5 7 4-4-2 12H5L3 8z"/></svg>
+            Get Yearly
+          </button>
+          <p class="price-note">≈ ₹42/mo · One-time payment</p>
+          <div class="offer-line" data-offer-banner>🎁 Buy before 25 Sept → 1 year FREE (2 years total)</div>
+        </div>
+
+        <!-- Lifetime -->
+        <div class="price-card lifetime reveal d-3">
+          <span class="lifetime-flag">★ Lifetime Deal</span>
+          <div class="price-name">Lifetime</div>
+          <div class="price-desc">Pay once — own it forever</div>
+          <div class="price-tag">
+            <span class="cur">₹</span><span class="amt">999</span><span class="per">one-time</span>
+          </div>
+          <ul class="price-features">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Unlimited videos forever</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Everything in Yearly</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>4K video upscaling + batch render</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Full API access (10K calls)</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Team seats (up to 5)</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Early access + 24/7 priority support</li>
+          </ul>
+          <button class="btn btn-ghost btn-block" data-buy="lifetime">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h7l-1 8 10-12h-7l1-8z"/></svg>
+            Get Lifetime
+          </button>
+          <p class="price-note">One-time payment · Never pay again</p>
+        </div>
+      </div>
+
+      <!-- Trust -->
+      <div class="trust-bar reveal">
+        <div class="trust-badge"><span class="tb-ico">🛡️</span> 7-Day Money-Back Guarantee</div>
+        <div class="trust-badge"><span class="tb-ico">🔒</span> Secure Checkout</div>
+        <div class="trust-badge"><span class="tb-ico">⚡</span> Instant Activation</div>
+        <div class="trust-badge"><span class="tb-ico">🎧</span> 24/7 Support</div>
+      </div>
+      <div class="pay-methods">
+        <span>🔐 Secure payments via</span>
+        <span class="pay-pill">UPI</span>
+        <span class="pay-pill">Visa</span>
+        <span class="pay-pill">Mastercard</span>
+        <span class="pay-pill">RuPay</span>
+        <span class="pay-pill">Paytm</span>
+        <span class="pay-pill">Google Pay</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Comparison ===== -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Compare Plans</span>
+        <h2>Every Detail, <span class="grad-text">Side by Side</span></h2>
+      </div>
+      <div class="compare-wrap reveal">
+        <table class="compare-table">
+          <thead>
+            <tr>
+              <th>Features</th>
+              <th>Free</th>
+              <th>Monthly</th>
+              <th class="col-popular">Yearly <span class="mini-badge">Popular</span></th>
+              <th>Lifetime</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>Videos</td><td>5 total</td><td class="yes">Unlimited</td><td class="col-popular yes">Unlimited</td><td class="yes">Unlimited</td></tr>
+            <tr><td>Motion presets</td><td>5</td><td class="yes">5 + priority</td><td class="col-popular yes">5 + priority</td><td class="yes">5 + early access</td></tr>
+            <tr><td>Max resolution</td><td>SD 480p</td><td class="yes">1080p HD</td><td class="col-popular yes">1080p HD</td><td class="yes">4K upscale</td></tr>
+            <tr><td>60fps rendering</td><td class="no">✕</td><td class="yes">✓</td><td class="col-popular yes">✓</td><td class="yes">✓</td></tr>
+            <tr><td>Batch rendering</td><td class="no">✕</td><td class="no">✕</td><td class="col-popular no">✕</td><td class="yes">✓</td></tr>
+            <tr><td>Commercial license</td><td class="no">✕</td><td class="yes">✓</td><td class="col-popular yes">✓</td><td class="yes">✓</td></tr>
+            <tr><td>API access</td><td class="no">✕</td><td class="no">✕</td><td class="col-popular no">✕</td><td class="yes">✓ 10K calls</td></tr>
+            <tr><td>Team seats</td><td class="no">✕</td><td class="no">✕</td><td class="col-popular no">✕</td><td class="yes">✓ up to 5</td></tr>
+            <tr><td>Support</td><td>Community</td><td class="yes">Priority email</td><td class="col-popular yes">Priority email</td><td class="yes">24/7 priority</td></tr>
+            <tr><td>Price</td><td>₹0</td><td class="yes">₹399/mo</td><td class="col-popular yes">₹499/yr</td><td class="yes">₹999 once</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FAQ ===== -->
+  <section class="section section-alt">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">FAQ</span>
+        <h2>Questions? <span class="grad-text">Answered.</span></h2>
+      </div>
+      <div class="faq-list">
+        <div class="faq-item reveal">
+          <button class="faq-q">
+            How does the launch offer work?
+            <span class="f-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></span>
+          </button>
+          <div class="faq-a"><p>Buy the ₹499 Yearly plan before 25 September 2026 and we'll add 12 extra months of unlimited creation absolutely free — you get 24 months for the price of 12. The offer activates automatically with your purchase.</p></div>
+        </div>
+        <div class="faq-item reveal d-1">
+          <button class="faq-q">
+            How does the free plan work?
+            <span class="f-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></span>
+          </button>
+          <div class="faq-a"><p>Free users get 5 videos to explore ImagineAI — no credit card required. Once you use them, simply upgrade to Monthly, Yearly or Lifetime to keep creating without limits.</p></div>
+        </div>
+        <div class="faq-item reveal d-1">
+          <button class="faq-q">
+            Can I cancel my subscription anytime?
+            <span class="f-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></span>
+          </button>
+          <div class="faq-a"><p>Absolutely. Cancel in one click from your account page and keep your benefits until the end of the billing period. No lock-ins, no cancellation fees.</p></div>
+        </div>
+        <div class="faq-item reveal d-2">
+          <button class="faq-q">
+            Who owns the videos I create?
+            <span class="f-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></span>
+          </button>
+          <div class="faq-a"><p>You do — 100%. Every video you create is fully yours. Monthly, Yearly and Lifetime plans include a commercial license so you can use your videos in products, merch, ads and client work.</p></div>
+        </div>
+        <div class="faq-item reveal d-3">
+          <button class="faq-q">
+            What payment methods do you accept?
+            <span class="f-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></span>
+          </button>
+          <div class="faq-a"><p>We accept all major credit and debit cards, UPI, net banking and popular wallets. Payments are processed securely — we never store your card details.</p></div>
+        </div>
+        <div class="faq-item reveal d-4">
+          <button class="faq-q">
+            Can I upgrade my plan later?
+            <span class="f-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></span>
+          </button>
+          <div class="faq-a"><p>Yes! Upgrade from Monthly to Yearly or Lifetime anytime — we'll prorate your payment so you only pay the difference. Downgrades are just as easy and take effect at the next billing cycle.</p></div>
+        </div>
+        <div class="faq-item reveal d-5">
+          <button class="faq-q">
+            Do you offer refunds?
+            <span class="f-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></span>
+          </button>
+          <div class="faq-a"><p>Yes — a 7-day money-back guarantee on all plans. If ImagineAI isn't for you, email us within 7 days of purchase for a full refund, no questions asked.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CTA ===== -->
+  <section class="section">
+    <div class="container">
+      <div class="cta-banner reveal-zoom">
+        <h2>Your Images Deserve to <span class="grad-text">Keep Moving</span></h2>
+        <p>Buy the <b>₹499 Yearly plan</b> before 25 September and get <b>12 months of unlimited creation FREE</b>. Instant activation · 7-day money-back guarantee.</p>
+        <a href="#top" class="btn btn-primary btn-lg" id="ctaBuy" data-buy="yearly">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8l4 4 5-7 5 7 4-4-2 12H5L3 8z"/></svg>
+          Unlock Yearly — ₹499
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">
+            <span class="logo-mark">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l1.9 5.8L19.7 9.7l-5.8 1.9L12 17.4l-1.9-5.8L4.3 9.7l5.8-1.9L12 2z"/><path d="M19 15l.9 2.6L22.5 18.5l-2.6.9L19 22l-.9-2.6-2.6-.9 2.6-.9L19 15z"/></svg>
+            </span>
+            Imagine<span class="grad-text">AI</span>
+          </a>
+          <p>Turn your images into stunning videos. The fastest, most beautiful AI image-to-video generator on the web.</p>
+          <div class="footer-social">
+            <a href="#" aria-label="Twitter"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"/></svg></a>
+            <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+            <a href="#" aria-label="GitHub"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a>
+            <a href="#" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17"/><polygon points="10 15 15 12 10 9 10 15"/></svg></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Pages</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="premium.html">Premium Plans</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="index.html#generator">Try Generator</a></li>
+            <li><a href="#">API Docs</a></li>
+            <li><a href="#">Motion Guide</a></li>
+            <li><a href="#">Community</a></li>
+          </ul>
+        </div>
+        <div class="footer-col footer-news">
+          <h4>Stay Inspired</h4>
+          <p>Get weekly motion ideas and new feature announcements. No spam, ever.</p>
+          <form class="news-form">
+            <input type="email" placeholder="Your email address" required>
+            <button type="submit" aria-label="Subscribe">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span class="year">2025</span> ImagineAI. All rights reserved.</span>
+        <div class="fb-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== Upgrade Modal ===== -->
+  <div class="modal-overlay" id="modalOverlay">
+    <div class="modal">
+      <button class="modal-close" aria-label="Close">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6L6 18M6 6l12 12"/></svg>
+      </button>
+      <div class="m-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8l4 4 5-7 5 7 4-4-2 12H5L3 8z"/></svg>
+      </div>
+      <h3 class="m-title">Free limit reached!</h3>
+      <p class="m-text">You have used all 5 free videos. Upgrade to keep turning your images into unlimited AI videos.</p>
+      <a href="premium.html" class="btn btn-primary btn-block btn-lg">View Premium Plans</a>
+      <p class="m-note">🔒 Secure checkout · 7-day money-back · Instant activation</p>
+    </div>
+  </div>
+
+  <!-- ===== Back to top ===== -->
+  <button class="to-top" id="toTop" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+  </button>
+
+  <script src="js/main.js"></script>
+  <script src="js/generator.js"></script>
+  <script src="js/offer.js"></script>
+  <script>
+    // Mark the user's current plan on the pricing page
+    document.addEventListener('DOMContentLoaded', () => {
+      const plan = localStorage.getItem('imagineai_plan') || 'free';
+      document.querySelectorAll('.price-card').forEach(card => {
+        const btn = card.querySelector('[data-buy]');
+        if (btn && btn.dataset.buy === plan) {
+          btn.disabled = true;
+          btn.style.opacity = '0.6';
+          btn.style.cursor = 'default';
+          btn.innerHTML = '✓ Current Plan';
+        }
+      });
+    });
+  </script>
+</body>
+</html>
