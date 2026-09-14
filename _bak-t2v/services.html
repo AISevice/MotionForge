@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services — ImagineAI</title>
+  <meta name="description" content="Explore ImagineAI services: image-to-video generation, cinematic motion presets, HD 1080p output, developer API and full commercial licensing.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎬</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===== Preloader ===== -->
+  <div id="preloader">
+    <div class="loader-ring"></div>
+    <div class="loader-text grad-text">ImagineAI</div>
+  </div>
+
+  <!-- ===== Navbar ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-mark">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l1.9 5.8L19.7 9.7l-5.8 1.9L12 17.4l-1.9-5.8L4.3 9.7l5.8-1.9L12 2z"/><path d="M19 15l.9 2.6L22.5 18.5l-2.6.9L19 22l-.9-2.6-2.6-.9 2.6-.9L19 15z"/></svg>
+        </span>
+        Imagine<span class="grad-text">AI</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="premium.html">Premium</a></li>
+      </ul>
+      <div class="nav-cta">
+        <span class="plan-badge free">Free — Unlimited Demo</span>
+        <a href="premium.html" class="btn btn-primary btn-sm">Upgrade</a>
+        <button class="hamburger" id="hamburger" aria-label="Open menu"><span></span></button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===== Page Hero ===== -->
+  <header class="page-hero">
+    <div class="hero-bg">
+      <div class="grid-pattern"></div>
+      <div class="orb orb-1"></div>
+      <div class="orb orb-3"></div>
+    </div>
+    <div class="container" style="position:relative;z-index:2">
+      <span class="eyebrow reveal">Our Services</span>
+      <h1 class="reveal d-1">AI-Powered Video for <span class="grad-text">Every Image</span></h1>
+      <p class="page-sub reveal d-2">
+        From a single still photo to a full motion pipeline — ImagineAI gives you everything
+        you need to turn images into stunning videos at any scale.
+      </p>
+      <div class="breadcrumb reveal d-3">
+        <a href="index.html">Home</a><span class="sep">/</span><span>Services</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== Services Grid ===== -->
+  <section class="section section-alt">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">What We Offer</span>
+        <h2>Six Powerful <span class="grad-text">Services</span></h2>
+      </div>
+      <div class="services-grid">
+        <div class="service-card reveal">
+          <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"/></svg></div>
+          <h3>Image-to-Video</h3>
+          <p>Upload any photo and get a smooth, cinematic video in seconds.</p>
+          <ul>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Any image format</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Under 5s render time</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Real video download</li>
+          </ul>
+        </div>
+        <div class="service-card reveal d-1">
+          <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7v10a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V7M3 7l3-3h12l3 3"/><line x1="7" y1="11" x2="7.01" y2="11"/><line x1="11" y1="11" x2="11.01" y2="11"/></svg></div>
+          <h3>Motion Presets</h3>
+          <p>Zoom, pan, orbit and pulse — one click applies professional camera motion.</p>
+          <ul>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>5 cinematic styles</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Hand-tuned easing</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>No editing skills needed</li>
+          </ul>
+        </div>
+        <div class="service-card reveal d-2">
+          <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
+          <h3>Flexible Lengths</h3>
+          <p>Create 3, 5 or 8-second clips — perfect for Reels, Shorts, ads and stories.</p>
+          <ul>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>3s / 5s / 8s clips</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Social-format ready</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Loop-friendly motion</li>
+          </ul>
+        </div>
+        <div class="service-card reveal">
+          <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="14" rx="2"/><path d="M8 21h8M12 18v3"/></svg></div>
+          <h3>HD Video Output</h3>
+          <p>Crisp 1080p output at silky 60fps — videos that look professionally produced.</p>
+          <ul>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>1080p resolution</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>60fps smooth motion</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>WebM export</li>
+          </ul>
+        </div>
+        <div class="service-card reveal d-1">
+          <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg></div>
+          <h3>Developer API</h3>
+          <p>Integrate image-to-video into your app, game or workflow with our simple REST API.</p>
+          <ul>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>REST & webhooks</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>99.9% uptime SLA</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>SDKs & docs included</li>
+          </ul>
+        </div>
+        <div class="service-card reveal d-2">
+          <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+          <h3>Commercial License</h3>
+          <p>Sell your videos, use them in ads and client projects — fully covered.</p>
+          <ul>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>100% ownership</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Ads & merch OK</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Client work covered</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Motion Presets ===== -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Motion Library</span>
+        <h2>Pick a Motion, <span class="grad-text">Start Creating</span></h2>
+        <p>Tap any motion below and we'll load it straight into the generator for you.</p>
+      </div>
+      <div class="preset-grid">
+        <div class="preset-card kb kb-1 reveal" data-motion="zoom-in">
+          <img src="images/preset-1.jpg" alt="Slow Zoom In motion" loading="lazy">
+          <div class="play-overlay"><div class="play-btn"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg></div></div>
+          <span class="p-hot">Hot</span>
+          <div class="dur-badge">0:05</div>
+          <div class="p-name">Slow Zoom In</div>
+        </div>
+        <div class="preset-card kb kb-2 reveal d-1" data-motion="zoom-out">
+          <img src="images/preset-2.jpg" alt="Slow Zoom Out motion" loading="lazy">
+          <div class="play-overlay"><div class="play-btn"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg></div></div>
+          <div class="dur-badge">0:05</div>
+          <div class="p-name">Slow Zoom Out</div>
+        </div>
+        <div class="preset-card kb kb-3 reveal d-2" data-motion="pan">
+          <img src="images/preset-3.jpg" alt="Cinematic Pan motion" loading="lazy">
+          <div class="play-overlay"><div class="play-btn"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg></div></div>
+          <div class="dur-badge">0:08</div>
+          <div class="p-name">Cinematic Pan</div>
+        </div>
+        <div class="preset-card kb kb-4 reveal d-3" data-motion="orbit">
+          <img src="images/preset-4.jpg" alt="Orbit Drift motion" loading="lazy">
+          <div class="play-overlay"><div class="play-btn"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg></div></div>
+          <div class="dur-badge">0:08</div>
+          <div class="p-name">Orbit Drift</div>
+        </div>
+        <div class="preset-card kb kb-5 reveal" data-motion="pulse">
+          <img src="images/preset-5.jpg" alt="Living Pulse motion" loading="lazy">
+          <div class="play-overlay"><div class="play-btn"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg></div></div>
+          <div class="dur-badge">0:03</div>
+          <div class="p-name">Living Pulse</div>
+        </div>
+        <div class="preset-card kb kb-6 reveal d-1" data-motion="zoom-in">
+          <img src="images/preset-6.jpg" alt="Epic Zoom motion" loading="lazy">
+          <div class="play-overlay"><div class="play-btn"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg></div></div>
+          <div class="dur-badge">0:05</div>
+          <div class="p-name">Epic Zoom</div>
+        </div>
+        <div class="preset-card kb kb-7 reveal d-2" data-motion="pan">
+          <img src="images/preset-7.jpg" alt="Glide Pan motion" loading="lazy">
+          <div class="play-overlay"><div class="play-btn"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg></div></div>
+          <span class="p-hot">New</span>
+          <div class="dur-badge">0:08</div>
+          <div class="p-name">Glide Pan</div>
+        </div>
+        <div class="preset-card kb kb-8 reveal d-3" data-motion="orbit">
+          <img src="images/preset-8.jpg" alt="Dream Orbit motion" loading="lazy">
+          <div class="play-overlay"><div class="play-btn"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg></div></div>
+          <div class="dur-badge">0:08</div>
+          <div class="p-name">Dream Orbit</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Pipeline ===== -->
+  <section class="section section-alt">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">How We Deliver</span>
+        <h2>Our Video <span class="grad-text">Pipeline</span></h2>
+      </div>
+      <div class="pipeline">
+        <div class="pipeline-step reveal-left">
+          <div class="p-num">01</div>
+          <div>
+            <h3>Analyze</h3>
+            <p>Our vision model studies your image — subject, depth, lighting and composition — and builds a motion plan.</p>
+          </div>
+        </div>
+        <div class="pipeline-step reveal-right">
+          <div class="p-num">02</div>
+          <div>
+            <h3>Plan</h3>
+            <p>The engine maps your chosen preset onto the scene, tuning zoom, pan and rotation to your image's layout.</p>
+          </div>
+        </div>
+        <div class="pipeline-step reveal-left">
+          <div class="p-num">03</div>
+          <div>
+            <h3>Animate</h3>
+            <p>Frames are rendered at 60fps with cinematic easing — turning your still photo into fluid motion.</p>
+          </div>
+        </div>
+        <div class="pipeline-step reveal-right">
+          <div class="p-num">04</div>
+          <div>
+            <h3>Deliver</h3>
+            <p>Your video is ready — watch it in the player and download it in HD, ready to post anywhere.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CTA ===== -->
+  <section class="section">
+    <div class="container">
+      <div class="cta-banner reveal-zoom">
+        <h2>Try Every Motion <span class="grad-text">For Free</span></h2>
+        <p>Try the free demo — experience the full ImagineAI magic before you commit.</p>
+        <a href="index.html#generator" class="btn btn-primary btn-lg">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+          Start Free
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">
+            <span class="logo-mark">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l1.9 5.8L19.7 9.7l-5.8 1.9L12 17.4l-1.9-5.8L4.3 9.7l5.8-1.9L12 2z"/><path d="M19 15l.9 2.6L22.5 18.5l-2.6.9L19 22l-.9-2.6-2.6-.9 2.6-.9L19 15z"/></svg>
+            </span>
+            Imagine<span class="grad-text">AI</span>
+          </a>
+          <p>Turn your images into stunning videos. The fastest, most beautiful AI image-to-video generator on the web.</p>
+          <div class="footer-social">
+            <a href="#" aria-label="Twitter"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"/></svg></a>
+            <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+            <a href="#" aria-label="GitHub"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a>
+            <a href="#" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17"/><polygon points="10 15 15 12 10 9 10 15"/></svg></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Pages</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="premium.html">Premium Plans</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="index.html#generator">Try Generator</a></li>
+            <li><a href="#">API Docs</a></li>
+            <li><a href="#">Motion Guide</a></li>
+            <li><a href="#">Community</a></li>
+          </ul>
+        </div>
+        <div class="footer-col footer-news">
+          <h4>Stay Inspired</h4>
+          <p>Get weekly motion ideas and new feature announcements. No spam, ever.</p>
+          <form class="news-form">
+            <input type="email" placeholder="Your email address" required>
+            <button type="submit" aria-label="Subscribe">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span class="year">2025</span> ImagineAI. All rights reserved.</span>
+        <div class="fb-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== Upgrade Modal ===== -->
+  <div class="modal-overlay" id="modalOverlay">
+    <div class="modal">
+      <button class="modal-close" aria-label="Close">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6L6 18M6 6l12 12"/></svg>
+      </button>
+      <div class="m-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8l4 4 5-7 5 7 4-4-2 12H5L3 8z"/></svg>
+      </div>
+      <h3 class="m-title">Free limit reached!</h3>
+      <p class="m-text">Upgrade to unlock uploading your own images and unlimited AI video creation.</p>
+      <a href="premium.html" class="btn btn-primary btn-block btn-lg">View Premium Plans</a>
+      <p class="m-note">🔒 Secure checkout · Cancel anytime · Instant activation</p>
+    </div>
+  </div>
+
+  <!-- ===== Back to top ===== -->
+  <button class="to-top" id="toTop" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+  </button>
+
+  <script src="js/main.js"></script>
+  <script src="js/generator.js"></script>
+  <script src="js/payment.js"></script>
+  <script src="js/premium-feel.js"></script>
+</body>
+</html>
